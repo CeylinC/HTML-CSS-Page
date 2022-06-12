@@ -42,6 +42,9 @@ body{
     background-color: red;
     transition: 0.5s;
 }
+.fa-bars{
+    cursor: pointer;
+}
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -141,6 +144,11 @@ footer .telif-content{
 @media screen and (min-width:992px) {
     .carousel-item .carousel-caption{
         top: 20%;
+    }
+}
+@media screen and (max-width:992px) {
+    .list-group-flush{
+        display: none;
     }
 }
 @media screen and (max-width:768px) {
